@@ -5,8 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
-const พร็อกซีไอพีs =  ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou','openai.com','www.michaelkors.com', 'bestproxy.onecf.eu.org', 'proxy.xxxxxxxx.tk', 'cdn-b100.xn--b6gac.eu.org', '172.67.152.71', '27.50.48.8', '45.195.62.115', '45.205.0.12', '219.76.13.183', 'my-telegram-is-herocore.onecf.eu.org'];
-
+const พร็อกซีไอพีs =  ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou','openai.com','ronainc.ca', 'bestproxy.onecf.eu.org', 'proxy.xxxxxxxx.tk', 'cdn-b100.xn--b6gac.eu.org', '172.67.152.71', '27.50.48.8', '45.195.62.115', '45.205.0.12', '219.76.13.183', 'nginx.com'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
