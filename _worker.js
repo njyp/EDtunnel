@@ -7,7 +7,7 @@ let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
 //const พร็อกซีไอพีs =  ['circles.co','in.bookmyshow.com','openai.com','ronainc.ca', 'bestproxy.onecf.eu.org', 'www-pref-miyazaki-lg-jp.cache.yimg.jp', 'cdn-b100.xn--b6gac.eu.org', '172.67.152.71', '27.50.48.8', '45.195.62.115', '45.205.0.12', '219.76.13.183'];
 
-const พร็อกซีไอพีs =  ['tv.njypp.com','proxy.xxxxxxxx.tk'];
+const พร็อกซีไอพีs =  ['tv.njypp.com','proxy.xxxxxxxx.tk','bestproxy.onecf.eu.org'];
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
